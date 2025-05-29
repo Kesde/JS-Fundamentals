@@ -1,2 +1,6 @@
-let Var = "No argument";
-console.log(Var);
+const arg = process.argv[2];
+if (arg === undefined) {
+    console.log("No argument");
+} else {
+    console.log(arg);
+}
