@@ -1,7 +1,7 @@
 const argument = process.argv
-const Num = parseInt(argument[2]); // Convert the argument to an integer
-if (isNaN(Num)) {
+const num = parseInt(argument[2]); // Convert the argument to an integer
+if (isNaN(num)) {
     console.log('Not a Number');
 } else { 
-      console.log('My Number:', Num); // Output the number
+      console.log('My Number:', num); // Output the number
 }
