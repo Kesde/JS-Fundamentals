@@ -1,7 +1,7 @@
-const argument = process.argv
-const num = parseInt(argument[2]); // Convert the argument to an integer
-if (Number.isNaN(num)) {
-    console.log('Not a Number');
-} else { 
-      console.log('My Number:', num); // Output the number
+const argument = process.argv[2]; // Get the command line argument
+const index = parseInt(argument); // Convert the argument to an integer
+if (Number.isNaN(index)) {
+  console.log("Not a Number");
+} else {
+  console.log("My Number:", index); // Output the number
 }
